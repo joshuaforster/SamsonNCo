@@ -62,7 +62,7 @@ export default function Home() {
 
             <Logos />
 
-            <section className='mx-4 md:mx-12 lg:mx-24 grid grid-cols-1 md:grid-cols-2 gap-10'>
+            <section className='mx-4 my-10 md:mx-12 lg:mx-24 grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10'>
                 {aboutData.map(data => (
                     <div className='text-center p-4' key={data.id}>
                         <h3 className='font-semibold text-xl mb-3 text-gray-800'>{data.room}</h3>
@@ -76,7 +76,7 @@ export default function Home() {
             </section>
 
             <section className='bg-gray-200 py-1'>
-                <div className='my-20 mx-4 md:mx-12 lg:mx-24 flex flex-col md:flex-row md:justify-center md:items-center gap-6'>
+                <div className='text-center lg:text-start my-20 mx-4 md:mx-12 lg:mx-24 flex flex-col md:flex-row md:justify-center md:items-center gap-6'>
                     <div className='w-full md:w-1/2'>
                         <h2 className='text-xl font-bold text-gray-600'>OUR LOCATION</h2>
                         <h3 className='text-gray-800 font-bold'>Where We Serve</h3>
