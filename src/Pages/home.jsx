@@ -54,7 +54,7 @@ export default function Home() {
             <div className='lg:w-6/12 flex flex-col items-center lg:items-start text-center lg:text-left gap-4'>
                 <h1 className='text-4xl md:text-6xl font-semibold text-gray-800 mb-4'>Creative Bathroom & Kitchen Solutions In Norwich</h1>
                 <p className="text-md md:text-lg text-gray-600">Create Your Perfect Kitchen & Bathroom in Norwich, Norfolk, and Suffolk. Our team offers top-quality products and customised solutions from leading UK manufacturers and brands. Contact us today to schedule a design consultation.</p>
-                <Button to='/contact'>Book Your Consultation With Us</Button>
+                <Button to='/contact'>Book Your Consultation</Button>
             </div>
             <img className='lg:w-5/12 h-auto object-cover rounded-lg mt-4 lg:mt-0' src={'/Images/Kitchen/TVYR5PDQ.jpeg'}/>
         </section>
