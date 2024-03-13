@@ -1,0 +1,45 @@
+const imageGallery ={
+    kitchenImages: [
+        '/Images/Kitchen/-IhIoytA.jpeg',
+        '/Images/Kitchen/-sIirgvA.jpeg',
+        '/Images/Kitchen/2B_MeqLQ.jpeg',
+        '/Images/Kitchen/2mWOU1zw.jpeg',
+        '/Images/Kitchen/4LDwtCyA.jpeg',
+        '/Images/Kitchen/4wt1U8Kw.jpeg',
+        '/Images/Kitchen/9A1d_2wg.jpeg',
+        '/Images/Kitchen/BdRJMMxQ.jpeg',
+        '/Images/Kitchen/BNQYYTmA.jpeg',
+        '/Images/Kitchen/BnwvOv2g.jpeg',
+        '/Images/Kitchen/dHGDEznA.jpeg',
+        '/Images/Kitchen/GV4nDF7Q.jpeg',
+        '/Images/Kitchen/Hlb109Jg.jpeg',
+        '/Images/Kitchen/i6CXYwWA.jpeg',
+        '/Images/Kitchen/jAZgENHA.jpeg',
+        '/Images/Kitchen/JQELB7tw.jpeg',
+        '/Images/Kitchen/jVtE7Fuw.jpeg',
+        '/Images/Kitchen/l7DHzaiA.jpeg',
+        '/Images/Kitchen/n9FTTB4w.jpeg',
+        '/Images/Kitchen/QXlxi3qw.jpeg',
+        '/Images/Kitchen/TVYR5PDQ.jpeg',
+        '/Images/Kitchen/Wm2AAlgw.jpeg'
+      ],
+      bathroomImages: [
+        '/Images/Bathroom/barmby_baths_rs_v1_ls.jpg',
+        '/Images/Bathroom/bpr107_bath_panels_v1_ls.jpg',
+        '/Images/Bathroom/bpr113_bath_panels_v1_ls.jpg',
+        '/Images/Bathroom/bsg007_baths_v1_ls.jpg',
+        '/Images/Bathroom/linton_baths_rs_v1_ls.jpg',
+        '/Images/Bathroom/nbb001_baths_v2_ls.jpg',
+        '/Images/Bathroom/nbb002_baths_v2_ls.jpg',
+        '/Images/Bathroom/nbb003_baths_cameo_v1_ls.jpg',
+        '/Images/Bathroom/nbb003_baths_v1_ls.jpg',
+        '/Images/Bathroom/nss1_baths_v3_ls1.jpg',
+        '/Images/Bathroom/nssq_baths_v3_ls1.jpg',
+        '/Images/Bathroom/off973_baths_planels_v2_ls.jpg',
+        '/Images/Bathroom/otley_baths_rs_v1_ls.jpg',
+        '/Images/Bathroom/singleended_baths_rs_v1_ls.jpg',
+      ],
+}
+
+export default imageGallery
+

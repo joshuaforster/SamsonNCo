@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.popup {
+  position: fixed; /* Fix position to the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust the exact center position */
+  width: 50%; /* Responsive width */
+  max-height: 80%;
+  background-color: white; /* Background color */
+  padding: 20px; /* Padding inside the popup */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex; /* Use flexbox for internal alignment */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Ensure text is centered within its container */
+  border: 1px solid black;
+  padding: 2%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.popup-close {
+position: absolute; /* Position it relative to the popup */
+top: 10px; /* Distance from the top */
+right: 10px; /* Distance from the right */
+background-color: transparent; /* No background */
+border: none; /* No border */
+font-size: 1.5rem; /* Larger font size */
+font-weight: bold; /* Make the 'X' bold */
+cursor: pointer; /* Change cursor to pointer on hover */
+padding: 0; /* No padding */
+line-height: 1; /* Tight line height for the 'X' */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+img {
+  max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+p, h1, h2, h3 {
+  line-height: 1.6; /* This equates to 160% */
 }
 
-.App-link {
-  color: #61dafb;
+
+h2{
+  font-size: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  font-size: 24px;
 }
+
+.slick-slide {
+  padding: 0 20px; /* Adjust the value to create the gap you desire */
+  box-sizing: border-box; /* Ensures padding doesn't affect the total width of the slide */
+}
+
+/* Custom CSS to change the arrow color */
+.slick-prev,
+.slick-next {
+  color: black !important; /* Overrides other styles to ensure the color is applied */
+}
+
+/* If the arrows are using before/after pseudo-elements for icons */
+.slick-prev:before,
+.slick-next:before {
+  color: black !important; /* Overrides other styles to ensure the color is applied */
+}
+
+
