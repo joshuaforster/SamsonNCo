@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink, Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -6,27 +7,20 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
   return (
     <footer className="bg-gray-700  mt-10">
-      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div className="sm:flex items-center sm:justify-between">
-          <a href="https://flowbite.com/">
+      <div className="className='mx-4 md:mx-12 lg:mx-24 text-white flex flex-col lg:flex-row items-center justify-between p-4 lg:gap-0 gap-10 text-center">
+          <Link to='/'>
             <img src="/Images/logowhite.png" className="h-12" alt="Flowbite Logo" />
-          </a>
-          <p className='text-white text-center'>{`@SampsonNCo ${currentYear}`}</p>
-          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-400 sm:mb-0">
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">About</a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">Contact</a>
-            </li>
-          </ul>
-        </div>
+          </Link>
+          <p className='text-white'>{`@${currentYear} Sampson N Co ltd`}</p>
+          <nav className='text-white flex flex-col lg:flex-row gap-8'>
+            <NavLink className='hover:text-gray-300' to="/">Home</NavLink>
+            <NavLink className='hover:text-gray-300' to="/kitchen">Kitchen</NavLink>
+            <NavLink className='hover:text-gray-300' to="/bathroom">Bathroom</NavLink>
+            <NavLink className='hover:text-gray-300' to="/projects">Projects</NavLink>
+            <NavLink className='hover:text-gray-300' to="/gallery">Gallery</NavLink>
+            <NavLink className='hover:text-gray-300' to="/faq">FAQ</NavLink>
+            <NavLink className='hover:text-gray-300' to="/contact">Contact</NavLink>
+          </nav>
       </div>
     </footer>
   );
