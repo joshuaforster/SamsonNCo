@@ -41,6 +41,11 @@ export default function Header() {
         isClicked(prev => !prev);
     }
 
+    function closeMenu() {
+        isClicked(false); 
+    }
+
+
     // SVG paths for hamburger and X icons
     const iconStyles = `h-6 w-6 ${clicked ? 'transform rotate-180' : ''}`; // Add rotation when clicked
     const HamburgerIcon = (
@@ -64,7 +69,7 @@ export default function Header() {
                     {clicked ? CloseIcon : HamburgerIcon}
                 </div>
             </div>
-            {clicked ? <MobileNav /> : ''}
+            {clicked ? <MobileNav onClose={closeMenu} /> : ''}
         </header>
     );
 }
