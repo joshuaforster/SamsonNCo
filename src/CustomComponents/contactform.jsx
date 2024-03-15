@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 max-w-lg mx-auto my-8 border border-gray-600 rounded p-8">
+    <form onSubmit={handleSubmit} className="space-y-4 max-w-lg mx-auto my-8 border border-gray-600 rounded p-8" data-netlify="true">
       <p className='text-center text-gray-800 text-2xl text-bold'>Fill in the box to find out more</p>
       <div className="flex flex-wrap -mx-2">
         <div className="w-full md:w-1/2 px-2 mb-4">
