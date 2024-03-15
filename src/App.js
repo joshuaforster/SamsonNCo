@@ -25,6 +25,7 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='*'element={<h1>404</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
