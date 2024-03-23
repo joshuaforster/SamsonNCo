@@ -112,50 +112,46 @@
 //     </form>
 //   );
 // };
-
-import React from 'react'
+import React from 'react';
 
 export default function ContactForm() {
-
   return (
-    <form name="contact" method="POST" data-netlify="true" className="max-w-lg mx-auto my-10 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-      <p className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-          Your Name: 
-          <input type="text" name="name" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+    <form name="contact" method="POST" data-netlify="true" className="max-w-lg mx-auto my-10 bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
+      <div className="mb-4">
+        <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
+          Your Name:
+          <input type="text" name="name" id="name" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
         </label>
-      </p>
-      <p className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-          Your Email: 
-          <input type="email" name="email" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" />
+      </div>
+      <div className="mb-4">
+        <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
+          Your Email:
+          <input type="email" name="email" id="email" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
         </label>
-      </p>
-      <p className="mb-4">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="role">
-          Room Enqruity:
-          <select name="role[]" multiple className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+      </div>
+      <div className="mb-4">
+        <label htmlFor="role" className="block text-gray-700 text-sm font-bold mb-2">
+          Room Enquiry:
+          <select name="role[]" id="role" className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
             <option value="kitchen">Kitchen</option>
             <option value="bathroom">Bathroom</option>
             <option value="both">Both</option>
           </select>
         </label>
-      </p>
-      <p className="mb-6">
-        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
-          Message: 
-          <textarea name="message" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+      </div>
+      <div className="mb-6">
+        <label htmlFor="message" className="block text-gray-700 text-sm font-bold mb-2">
+          Message:
+          <textarea name="message" id="message" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </label>
-      </p>
-      <p className="flex items-center justify-between">
+      </div>
+      <div className="flex items-center justify-between">
         <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
           Send
         </button>
-      </p>
+      </div>
     </form>
-  )
+  );
 }
-
-
 
 
