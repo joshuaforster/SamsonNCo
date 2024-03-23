@@ -116,7 +116,15 @@ import React from 'react';
 
 export default function ContactForm() {
   return (
-    <form name="contact" method="POST" data-netlify="true" className="max-w-lg mx-auto my-10 bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
+    <form 
+      name="contact" 
+      method="POST" 
+      data-netlify="true" 
+      action="/thank-you" // Specify your success page here
+      className="max-w-lg mx-auto my-10 bg-white shadow-md rounded-lg px-8 pt-6 pb-8 mb-4"
+    >
+      {/* Netlify form name hidden field */}
+      <input type="hidden" name="form-name" value="contact" />
       <div className="mb-4">
         <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
           Your Name:
@@ -153,5 +161,3 @@ export default function ContactForm() {
     </form>
   );
 }
-
-
