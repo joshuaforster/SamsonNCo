@@ -11,7 +11,7 @@ const mappedImages = logoImages.map(image =>(
 
     return(
             <section className='bg-gray-700 py-4'>
-                <div className='flex justify-between items-center mx-4 md:mx-12 lg:mx-24'>
+                <div className='flex justify-between items-center mx-auto px-4 md:px-12 lg:px-24 max-w-screen-2xl'>
                     {mappedImages}
                 </div>
             </section>

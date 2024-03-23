@@ -54,13 +54,13 @@ export default function Bathroom() {
 
     return (
         <div>
-            <div className='mx-4 md:mx-12 lg:mx-24 my-8'>
+            <div className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
                 {bathroomIntro}
             </div>
 
             <Logos />
 
-            <div className='mx-4 md:mx-12 lg:mx-24 my-8 text-center'>
+            <div className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8 text-center'>
                 <h2 className='text-2xl md:text-3xl font-bold text-gray-800 mb-4'>Bathroom Price Guide</h2>
                 <p className="mb-8 text-md md:text-lg text-gray-600">Our team offers top-quality products and customised solutions from leading UK manufacturers and brands. Contact us today to schedule a design consultation.</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 space-y-4 md:space-y-0">

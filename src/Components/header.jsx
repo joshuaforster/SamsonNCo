@@ -62,7 +62,7 @@ export default function Header() {
 
     return (
         <header className='bg-gray-700'>
-            <div className='mx-4 md:mx-12 lg:mx-24 text-white flex items-center justify-between p-4'>
+            <div className='mx-auto max-w-screen-2xl px-4 md:px-12 lg:px-24 text-white flex items-center justify-between py-4'>
                 <Link to="/"><img src='/Images/logowhite.png' alt='Logo' className='h-12' /></Link>
                 <DesktopNav />
                 <div onClick={toggle} className='lg:hidden'>

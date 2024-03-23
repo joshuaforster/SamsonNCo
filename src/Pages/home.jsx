@@ -50,7 +50,7 @@ export default function Home() {
     return (
         <section>
 
-        <section className='mx-4 md:mx-12 lg:mx-24 my-4 flex flex-col lg:flex-row gap-10 items-center justify-center'>
+        <section className='max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-24 my-4 flex flex-col lg:flex-row gap-10 items-center justify-between'>
             <div className='lg:w-6/12 flex flex-col items-center lg:items-start text-center lg:text-left gap-4'>
                 <h1 className='text-4xl md:text-6xl font-semibold text-gray-800 mb-4'>Creative Bathroom & Kitchen Solutions In Norwich</h1>
                 <p className="text-md md:text-lg text-gray-600">Create Your Perfect Kitchen & Bathroom in Norwich, Norfolk, and Suffolk. Our team offers top-quality products and customised solutions from leading UK manufacturers and brands. Contact us today to schedule a design consultation.</p>
@@ -62,7 +62,7 @@ export default function Home() {
 
             <Logos />
 
-            <section className='mx-4 my-10 md:mx-12 lg:mx-24 grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10'>
+            <section className='my-10 max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10'>
                 {aboutData.map(data => (
                     <div className='text-center p-4' key={data.id}>
                         <h3 className='font-semibold text-xl mb-3 text-gray-800'>{data.room}</h3>
@@ -76,7 +76,7 @@ export default function Home() {
             </section>
 
             <section className='bg-gray-200 py-1'>
-                <div className='text-center lg:text-start my-20 mx-4 md:mx-12 lg:mx-24 flex flex-col md:flex-row md:justify-center md:items-center gap-6'>
+                <div className='text-center lg:text-start my-20 max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-24 flex flex-col md:flex-row md:justify-center md:items-center gap-6'>
                     <div className='w-full md:w-1/2'>
                         <h2 className='text-xl font-bold text-gray-600'>OUR LOCATION</h2>
                         <h3 className='text-gray-800 font-bold'>Where We Serve</h3>
@@ -87,7 +87,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className='my-20 mx-auto w-3/4 text-center'>
+            <section className='my-20 max-w-screen-2xl mx-auto px-4 md:px-12 lg:px-24 w-3/4 text-center'>
                 <div className='gap-2 flex flex-col'>
                     <h3 className='text-4xl text-gray-800 font-bold'>Testimonials</h3>
                     <p className='text-2xl text-gray-600'>Hear what our happy customers have to say.</p>

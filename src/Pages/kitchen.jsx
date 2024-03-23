@@ -42,13 +42,13 @@ export default function Kitchen() {
 
     return (
         <section>
-            <div className='mx-4 md:mx-12 lg:mx-24 my-8'>
+            <div className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
                 {kitchenSection}
             </div>
 
             <Logos/>
 
-            <section className='my-10 mx-4 md:mx-12 lg:mx-24'>
+            <section className='my-10 mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl'>
                 <div className='text-center lg:w-3/4 m-auto space-y-4 mb-10'>
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800">How your kitchen is made</h2>
                     <p className="text-md md:text-lg text-gray-600">In our German kitchen furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.</p>
@@ -59,7 +59,7 @@ export default function Kitchen() {
                 </div>
             </section>
 
-            <div className='mx-4 md:mx-12 lg:mx-24 my-8 text-center'>
+            <div className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8 text-center'>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Kitchen Price Guide</h2>
                 <p className="text-md md:text-lg text-gray-600 mb-4">Our team offers top-quality products and customised solutions from leading UK manufacturers and brands. Contact us today to schedule a design consultation.</p>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 space-y-4 md:space-y-0'>

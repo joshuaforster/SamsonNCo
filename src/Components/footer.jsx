@@ -7,7 +7,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
   return (
     <footer className="bg-gray-700  mt-10">
-      <div className="className='mx-4 md:mx-12 lg:mx-24 text-white flex flex-col lg:flex-row items-center justify-between p-4 lg:gap-0 gap-10 text-center">
+      <div className=" mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl text-white flex flex-col lg:flex-row items-center justify-between lg:gap-0 gap-10 text-center">
           <Link to='/'>
             <img src="/Images/logowhite.png" className="h-12" alt="Flowbite Logo" />
           </Link>

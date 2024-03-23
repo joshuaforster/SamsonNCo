@@ -30,7 +30,7 @@ export default function ProjectDetails() {
     }
 
     return (
-        <section className='mx-4 md:mx-12 lg:mx-24 my-4'>
+        <section className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-4'>
             <Link to='/projects' className="inline-block mb-6 text-blue-600 hover:text-blue-800">
                 ← Back to Customer Projects
             </Link>

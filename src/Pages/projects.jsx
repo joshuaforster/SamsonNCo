@@ -18,7 +18,7 @@ export default function Projects() {
     });
 
     return (
-        <section className='mx-4 md:mx-12 lg:mx-24 my-8'>
+        <section className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
             <div className='flex flex-col lg:flex-row gap-10 my-8 items-center justify-center text-center lg:text-left'>
                 <div className='space-y-4 lg:w-7/12'>
                     <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Customer Projects</h1>
