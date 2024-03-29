@@ -31,9 +31,9 @@ export default function ImageGallery() {
 
     return (
         <section>
-            <div className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
+            <div className='mx-auto py-4 px-4 md:px-12  lg:px-24 max-w-screen-2xl my-8'>
                 <div className='flex flex-col gap-10 my-8 items-center justify-center text-center '>
-                        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Gallery</h1>
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Gallery</h1>
                         <p className="text-md md:text-lg text-gray-600">Explore our gallery of customer kitchens and bathrooms to see how we've brought their visions to life. From sleek, modern designs to cozy, traditional spaces, our Norwich-based projects reflect the unique tastes and needs of each homeowner, combining beauty with practicality.</p>
                 </div>
             </div>

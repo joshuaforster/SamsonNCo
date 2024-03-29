@@ -21,7 +21,7 @@ export default function Projects() {
         <section className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
             <div className='flex flex-col lg:flex-row gap-10 my-8 items-center justify-center text-center lg:text-left'>
                 <div className='space-y-4 lg:w-7/12'>
-                    <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Customer Projects</h1>
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Customer Projects</h1>
                     <p className="text-md md:text-lg text-gray-600">Welcome to our creative space where dreams of a perfect kitchen and bathroom turn into reality. Here in the heart of Norwich, we've transformed countless homes, creating spaces that blend stunning aesthetics with functional design.</p>
                     <p className="text-md md:text-lg text-gray-600">Our portfolio is a testament to the passion and precision we pour into every detail. From cosy, family kitchens to lavish bathrooms, we've crafted spaces that reflect personality and style.</p>
                     <p className="text-md md:text-lg text-gray-600">We believe your home should be a reflection of you, and through our bespoke designs, we aim to make that a reality. Dive into our world, explore our projects, and let's create something beautiful together.</p>
