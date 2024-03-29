@@ -20,27 +20,11 @@ export default function Bathroom() {
     ));
 
     const filteredPriceRange = priceGuide.filter(guide => guide.Type === 'Bathroom');
-
     const bathroomPriceGuide = filteredPriceRange.map(price => (
-        <div 
-            key={price.id} 
-            className="mb-8 bg-white p-6 flex flex-col items-center justify-center space-y-6 rounded border border-gray-300 shadow-lg"
-        >
-            <p 
-                className="text-xl font-semibold text-gray-800 text-center"
-            >
-                {`${price.Size} ${price.Type}s`}
-            </p>
-            
-            <div 
-                className="border-t border-gray-400 w-full my-4"
-            ></div>
-            
-            <p 
-                className="text-lg md:text-xl text-gray-800 text-center"
-            >
-                {price.PriceRange}
-            </p>
+        <div key={price.id} className="mb-4 bg-white p-4 flex flex-col items-center justify-center space-y-4 rounded border border-gray-300 shadow-md">
+            <p className="text-lg font-semibold text-gray-700 text-center">{`${price.Size} ${price.Type}s`}</p>
+            <div className="border-t border-gray-300 w-full my-2"></div>
+            <p className="text-lg md:text-lg text-gray-700 text-center">{price.PriceRange}</p>
         </div>
     ));
     
