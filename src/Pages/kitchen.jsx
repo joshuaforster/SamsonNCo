@@ -42,7 +42,7 @@ export default function Kitchen() {
 
     return (
         <section>
-            <div className='mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
+            <div className='mx-auto lg:py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl my-8'>
                 {kitchenSection}
             </div>
 
