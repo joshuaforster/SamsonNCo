@@ -24,7 +24,7 @@ const KitchenBathroomHeader: React.FC<KitchenBathroomHeaderProps> = ({
     }, 4000); // Change every 4 seconds
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [images.length]);
 
   const { ref: headerRef, inView: headerInView } = useInView({ triggerOnce: true });
   const { ref: subtitleRef, inView: subtitleInView } = useInView({ triggerOnce: true });

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Button from '../../CustomComponents/buttons';
 
 export default function KitchenBathroom() {
@@ -21,8 +20,10 @@ export default function KitchenBathroom() {
     {
       id: 2,
       room: 'Kitchen',
-      intro:
-        'At Sampson N Co, we believe a kitchen is more than just a space - it’s where memories are made, families come together, and culinary dreams come alive.\n\ \n\ Crafted with precision in Germany, each of our kitchens embodies a harmonious blend of cutting-edge design and everyday functionality.',
+      intro: [
+        'At Sampson N Co, we believe a kitchen is more than just a space - it’s where memories are made, families come together, and culinary dreams come alive.',
+        'Crafted with precision in Germany, each of our kitchens embodies a harmonious blend of cutting-edge design and everyday functionality.',
+      ],
       standOut:
         'In our German kitchen furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.',
       made:

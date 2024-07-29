@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useSwipeable } from 'react-swipeable';
-import Button from '../../CustomComponents/buttons';
+
 
 const reviews = [
   {
