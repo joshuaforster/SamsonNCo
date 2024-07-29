@@ -77,18 +77,6 @@ const PricingComponent: React.FC<PricingComponentProps> = ({ title, subtitle, ti
                   ))}
                 </ul>
               </div>
-              <a
-                href={tier.href}
-                aria-describedby={tier.id}
-                className={classNames(
-                  tier.mostPopular
-                    ? 'bg-indigo-600 text-white shadow-sm hover:bg-indigo-500'
-                    : 'text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300',
-                  'mt-8 block rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
-                )}
-              >
-                Buy plan
-              </a>
             </div>
           ))}
         </div>
