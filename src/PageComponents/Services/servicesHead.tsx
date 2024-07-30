@@ -12,7 +12,7 @@ export default function ServicesHead() {
             <img
               className="w-full h-80 object-cover hidden lg:block"
               src='/images/Home/nbb003_baths_v1_ls.jpg'
-              alt="Window cleaning service"
+              alt="Bathroom design service"
               loading="lazy"
             />
           </picture>
@@ -21,7 +21,7 @@ export default function ServicesHead() {
             <img
               className="w-full h-80 object-cover hidden lg:block"
               src='/images/Home/Hlb109Jg.jpeg'
-              alt="Roof cleaning service"
+              alt="Kitchen design service"
               loading="lazy"
             />
           </picture>
@@ -31,10 +31,10 @@ export default function ServicesHead() {
             What We Can Do for You
           </h2>
           <p className="mb-4 text-base">
-            At AD Forster Window Cleaning, we provide a wide range of cleaning services to keep your home or business looking its best. Our team of professionals uses advanced techniques and eco-friendly solutions to ensure your satisfaction.
+            At Sampson N Co, we specialize in designing and installing high-quality kitchens and bathrooms that cater to your unique needs. Our team of experts combines precision craftsmanship with innovative design to bring your dream space to life.
           </p>
           <p className="mb-4 text-base">
-            Whether you need regular window cleaning, gutter cleaning, or conservatory cleaning, we have the expertise and equipment to deliver outstanding results.
+            Whether you need a modern kitchen makeover or a luxurious bathroom renovation, we have the skills and experience to deliver exceptional results.
           </p>
         </div>
       </div>
