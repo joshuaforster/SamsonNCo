@@ -5,20 +5,6 @@ export default function KitchenBathroom() {
   const aboutData = [
     {
       id: 1,
-      room: 'Bathroom',
-      intro: [
-        'At Sampson N Co, we believe a kitchen is more than just a space - it’s where memories are made, families come together, and culinary dreams come alive.',
-        'Crafted with precision in Germany, each of our kitchens embodies a harmonious blend of cutting-edge design and everyday functionality.',
-      ],
-      standOut:
-        'In our German kitchen furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.',
-      mainImage: '/images/Home/barmby_baths_rs_v1_ls.jpg',
-      homeDesk:
-        'Our team is dedicated to providing rigid kitchen solutions, each tailored with care to the distinct specifications of our customers. Relish in the quality of German manufacturing.',
-      url: 'bathroom',
-    },
-    {
-      id: 2,
       room: 'Kitchen',
       intro: [
         'At Sampson N Co, we believe a kitchen is more than just a space - it’s where memories are made, families come together, and culinary dreams come alive.',
@@ -26,12 +12,26 @@ export default function KitchenBathroom() {
       ],
       standOut:
         'In our German kitchen furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.',
-      made:
-        'In our German kitchen furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.',
       mainImage: '/images/Home/BnwvOv2g.jpeg',
       homeDesk:
-        'Experience the distinction of bathroom designs sourced from top UK brands, each tailored to your specific requirements.',
+        'Our team is dedicated to providing rigid kitchen solutions, each tailored with care to the distinct specifications of our customers. Relish in the quality of German manufacturing.',
       url: 'kitchen',
+    },
+    {
+      id: 2,
+      room: 'Bathroom',
+      intro: [
+        'At Sampson N Co, we believe a bathroom is more than just a space - it’s where you start and end your day, a place of relaxation and rejuvenation.',
+        'Crafted with precision and attention to detail, each of our bathrooms embodies a harmonious blend of cutting-edge design and everyday functionality.',
+      ],
+      standOut:
+        'In our bathroom furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.',
+      made:
+        'In our bathroom furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.',
+      mainImage: '/images/Home/barmby_baths_rs_v1_ls.jpg',
+      homeDesk:
+        'Experience the distinction of bathroom designs sourced from top UK brands, each tailored to your specific requirements.',
+      url: 'bathroom',
     },
   ];
 

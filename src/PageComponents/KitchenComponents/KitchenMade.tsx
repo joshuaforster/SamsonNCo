@@ -8,7 +8,7 @@ export default function KitchenMade(){
           id: 1,
           title: "QUALITY & SUSTAINABILITY",
           description: "Certified for excellence by the German Quality Assurance Association, our kitchens proudly display the Golden M emblem, symbolising our commitment to top-notch quality and human health compatibility. Our kitchen designs embody safety and promote a healthy lifestyle.Moreover, our enterprise has earned the PEFC certification, marking us as part of the largest forest certification network globally. PEFC's rigorous standards are designed to revolutionize forest management worldwide, ensuring forests continue to deliver their full range of environmental, social, and economic advantages for everyone.",
-          image: 'Images/Quality.png'
+          image: 'Images/Quality.jpg'
         },
         {
           id: 2,
@@ -70,7 +70,7 @@ export default function KitchenMade(){
         <section className='my-10 mx-auto py-4 px-4 md:px-12 lg:px-24 max-w-screen-2xl'>
         <div className='text-center lg:w-3/4 m-auto space-y-4 mb-10'>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800">How your kitchen is made</h2>
-            <p className="text-md md:text-lg text-gray-600">In our German kitchen furniture crafting, we utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.</p>
+            <p className="text-md md:text-lg text-gray-600">We utilise high-grade materials coupled with the foremost technology sourced from top brand manufacturers. This is achieved through marrying traditional handcrafted expertise with contemporary production techniques.</p>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>

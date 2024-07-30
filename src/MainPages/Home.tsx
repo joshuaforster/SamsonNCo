@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <meta name="description" content="AD Forster Window Cleaning offers top-notch window cleaning services for both residential and commercial properties. Learn more about our services, view our gallery, and read testimonials from our satisfied clients." />
-        <title>AD Forster Window Cleaning - Home</title>
+        <meta name="description" content="Sampson N Co Kitchens and Bathrooms" />
+        <title>Sampson N CO - Home</title>
       </Helmet>
       <HeroTwo />
       <Logo />
