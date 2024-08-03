@@ -1,4 +1,6 @@
 import React, { Suspense, lazy } from 'react';
+import LoadingSpinner from './CustomComponents/Loading/LoadingSpinner';
+import DelayedFallback from './CustomComponents/Loading/DelayedFallback';
 import { Link } from 'react-router-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CookieConsent from 'react-cookie-consent';
@@ -21,8 +23,7 @@ const ServicesHome = lazy(() => import('./MainPages/servicesHome'));
 const TermsConditions = lazy(() => import('./MainPages/Legal/TermsConditions'));
 const PrivacyPolicy = lazy(() => import('./MainPages/Legal/privacypolicy'));
 const Unfound = lazy(() => import('./MainPages/404'));
-import LoadingSpinner from './CustomComponents/Loading/LoadingSpinner';
-import DelayedFallback from './CustomComponents/Loading/DelayedFallback';
+
 
 function App() {
   return (
