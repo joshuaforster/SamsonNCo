@@ -8,8 +8,8 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About - AD Forster</title>
-        <meta name="description" content="Learn more about AD Forster." />
+        <title>About - Sampson N Co Kitchen and Bathrooms</title>
+        <meta name="description" content="Learn more about Sampson N Co Kitchen and Bathrooms, our history, values, and what sets us apart in the industry." />
       </Helmet>
       <HeaderSection
           image='/images/Home/4LDwtCyA.jpeg'
@@ -17,7 +17,6 @@ const About = () => {
       />
       <AboutHead />
       <WhyJLR />
-
     </div>
   );
 };
