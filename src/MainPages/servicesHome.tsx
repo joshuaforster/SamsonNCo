@@ -8,10 +8,10 @@ export default function ServicesHome() {
   return (
     <div>
       <Helmet>
-        <title>Our Services | AD Forster Window Cleaning</title>
+        <title>Our Services | Sampson N Co Kitchen and Bathrooms</title>
         <meta 
           name="description" 
-          content="Discover the range of services offered by AD Forster Window Cleaning. From window cleaning to gutter cleaning, our experienced team is here to help you with all your cleaning needs." 
+          content="Discover the range of services offered by Sampson N Co Kitchen and Bathrooms. From kitchen and bathroom design to full installation services, our experienced team is here to help you create your dream spaces." 
         />
       </Helmet>
       <HeaderSection 

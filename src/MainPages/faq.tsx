@@ -74,7 +74,7 @@ const faqs = [
       question: "How environmentally friendly are your products and services?",
       answer: "We're committed to sustainability and choose products and practices that minimise environmental impact. This includes using sustainably sourced materials and ensuring efficient installations to reduce waste."
   }
-]
+];
 
 const FAQ: React.FC = () => {
   const [activeIndices, setActiveIndices] = useState<number[]>([]);
@@ -111,12 +111,15 @@ const FAQ: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>FAQs - AD Forster Window Cleaning</title>
-        <meta name="description" content="Find answers to frequently asked questions about AD Forster Window Cleaning, including services offered, pricing, booking, and more." />
+        <title>FAQs - Sampson N Co Kitchen and Bathrooms</title>
+        <meta 
+          name="description" 
+          content="Find answers to frequently asked questions about Sampson N Co Kitchen and Bathrooms, including services offered, pricing, booking, and more." 
+        />
       </Helmet>
       <section className="relative bg-customGray dark:bg-gray-900">
         <HeaderSection
-          image= '/images/Home/l7DHzaiA.jpeg'
+          image='/images/Home/l7DHzaiA.jpeg'
           title="FAQ's"
         />
         <div
