@@ -20,8 +20,9 @@ const ServiceDetail = lazy(() => import('./CustomComponents/serviceDetail'));
 const ServicesHome = lazy(() => import('./MainPages/servicesHome'));
 const TermsConditions = lazy(() => import('./MainPages/Legal/TermsConditions'));
 const PrivacyPolicy = lazy(() => import('./MainPages/Legal/privacypolicy'));
-// const Projects = lazy(() => import('./MainPages/Projects'));
 const Unfound = lazy(() => import('./MainPages/404'));
+import LoadingSpinner from './CustomComponents/Loading/LoadingSpinner';
+import DelayedFallback from './CustomComponents/Loading/DelayedFallback';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
         <ProjectsProvider>
           <BrowserRouter>
             <ScrollToTop />
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<DelayedFallback><LoadingSpinner /></DelayedFallback>}>
               <Routes>
                 <Route element={<Layout />}>
                   <Route path='/' element={<Home />} />
